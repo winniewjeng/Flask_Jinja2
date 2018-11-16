@@ -1,16 +1,15 @@
+<!-- in addition to the request form, this page will display the movie info user has requested -->
 {% extends "ask_movie.html" %}
 {% block title %}Display Movie {{movie_title}} {% endblock%}
 {% block head %}
     {{super()}}
 {% endblock %}
-
 {% block content %}
 <!-- super gives the child class the same form as from ask movie.html -->
 <form action = "/" method="POST">
     <p>Movie  <input type ="MOVIE" name = "MOVIE" /></p>
     <p><input type = "submit" value = "submit" /></p>
 </form>
-
 <!-- have a table with 2 columns and 6 rows that
     displays values passed in from the python program.-->
 <table border="1">
@@ -38,7 +37,5 @@
         <th>Run Time</th>
         <td>{{RunTime}}</td>
     </tr>
-
-
 </table>
 {% endblock %}

@@ -740,3 +740,163 @@ IndexError: list index out of range
 11/16/2018 05:39:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:45] "POST / HTTP/1.1" 200 -
 11/16/2018 05:40:14 AM,INFO,Program Terminated
 11/16/2018 05:40:14 AM,INFO,Program Terminated
+11/16/2018 05:44:21 AM,INFO,Program Starting
+11/16/2018 05:44:22 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:44:22 AM,INFO, * Restarting with stat
+11/16/2018 05:44:24 AM,INFO,Program Starting
+11/16/2018 05:44:24 AM,WARNING, * Debugger is active!
+11/16/2018 05:44:24 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:44:37 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:44:37] "POST / HTTP/1.1" 200 -
+11/16/2018 05:44:39 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:44:39] "POST / HTTP/1.1" 200 -
+11/16/2018 05:44:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:44:45] "POST / HTTP/1.1" 200 -
+11/16/2018 05:47:20 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:47:21 AM,INFO, * Restarting with stat
+11/16/2018 05:47:24 AM,INFO,Program Starting
+11/16/2018 05:47:24 AM,WARNING, * Debugger is active!
+11/16/2018 05:47:24 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:47:24 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:47:24] "POST / HTTP/1.1" 200 -
+11/16/2018 05:47:31 AM,INFO,Program Terminated
+11/16/2018 05:47:31 AM,INFO,Program Terminated
+11/16/2018 05:47:36 AM,INFO,Program Starting
+11/16/2018 05:47:36 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:47:36 AM,INFO, * Restarting with stat
+11/16/2018 05:47:38 AM,INFO,Program Starting
+11/16/2018 05:47:38 AM,WARNING, * Debugger is active!
+11/16/2018 05:47:38 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:47:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:47:40] "POST / HTTP/1.1" 200 -
+11/16/2018 05:47:43 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:47:43] "POST / HTTP/1.1" 200 -
+11/16/2018 05:47:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:47:47] "GET / HTTP/1.1" 200 -
+11/16/2018 05:47:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:47:50] "POST / HTTP/1.1" 200 -
+11/16/2018 05:48:00 AM,INFO,Program Terminated
+11/16/2018 05:48:00 AM,INFO,Program Terminated
+11/16/2018 05:49:54 AM,INFO,Program Starting
+11/16/2018 05:50:47 AM,INFO,Program Starting
+11/16/2018 05:50:47 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:51:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:51:01] "POST / HTTP/1.1" 200 -
+11/16/2018 05:51:04 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:51:04] "POST / HTTP/1.1" 200 -
+11/16/2018 05:51:06 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:51:06] "POST / HTTP/1.1" 200 -
+11/16/2018 05:51:07 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:51:07] "POST / HTTP/1.1" 200 -
+11/16/2018 06:02:29 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:02:29] "POST / HTTP/1.1" 200 -
+11/16/2018 06:02:31 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 06:02:31 AM,ERROR,movie data not in the database
+11/16/2018 06:02:31 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:02:31] "POST / HTTP/1.1" 200 -
+11/16/2018 06:02:37 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:02:37] "POST / HTTP/1.1" 200 -
+11/16/2018 06:02:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:02:56] "POST / HTTP/1.1" 200 -
+11/16/2018 06:02:57 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 06:02:57 AM,ERROR,movie data not in the database
+11/16/2018 06:02:57 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:02:57] "POST / HTTP/1.1" 200 -
+11/16/2018 06:03:00 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 06:03:00 AM,ERROR,movie data not in the database
+11/16/2018 06:03:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:03:00] "POST / HTTP/1.1" 200 -
+11/16/2018 06:03:01 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 06:03:01 AM,ERROR,movie data not in the database
+11/16/2018 06:03:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:03:01] "POST / HTTP/1.1" 200 -
+11/16/2018 06:03:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:03:03] "POST / HTTP/1.1" 200 -
+11/16/2018 06:03:18 AM,INFO,Program Starting
+11/16/2018 06:03:18 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 06:03:21 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:03:21] "GET / HTTP/1.1" 200 -
+11/16/2018 06:03:24 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:03:24] "POST / HTTP/1.1" 200 -
+11/16/2018 06:04:27 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:04:27] "POST / HTTP/1.1" 200 -
+11/16/2018 06:04:42 AM,INFO,Program Starting
+11/16/2018 06:04:42 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 06:04:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:04:45] "GET / HTTP/1.1" 200 -
+11/16/2018 06:04:49 AM,ERROR,getMovieTitle Movie Not in Database Iron
+11/16/2018 06:04:49 AM,ERROR,movie data not in the database
+11/16/2018 06:04:49 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:04:49] "POST / HTTP/1.1" 200 -
+11/16/2018 06:04:51 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:04:51] "POST / HTTP/1.1" 200 -
+11/16/2018 06:07:02 AM,INFO,Program Starting
+11/16/2018 06:07:02 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 06:07:05 AM,INFO,Director:Jim O'Hanlon
+11/16/2018 06:07:05 AM,INFO,Lead Actor/Actress:Romola Garai
+11/16/2018 06:07:05 AM,INFO,Release Date:2009-10-11
+11/16/2018 06:07:05 AM,ERROR,Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./lab8.py", line 87, in front_page
+    return display_movie()
+  File "./lab8.py", line 65, in display_movie
+    logging.info("Budget:" + Budget)
+TypeError: must be str, not int
+11/16/2018 06:07:05 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:05] "POST / HTTP/1.1" 500 -
+11/16/2018 06:07:07 AM,INFO,Director:Jim O'Hanlon
+11/16/2018 06:07:07 AM,INFO,Lead Actor/Actress:Romola Garai
+11/16/2018 06:07:07 AM,INFO,Release Date:2009-10-11
+11/16/2018 06:07:07 AM,ERROR,Exception on / [POST]
+Traceback (most recent call last):
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./lab8.py", line 87, in front_page
+    return display_movie()
+  File "./lab8.py", line 65, in display_movie
+    logging.info("Budget:" + Budget)
+TypeError: must be str, not int
+11/16/2018 06:07:07 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:07] "POST / HTTP/1.1" 500 -
+11/16/2018 06:07:37 AM,INFO,Program Starting
+11/16/2018 06:07:37 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 06:07:37 AM,INFO, * Restarting with stat
+11/16/2018 06:07:39 AM,INFO,Program Starting
+11/16/2018 06:07:39 AM,WARNING, * Debugger is active!
+11/16/2018 06:07:39 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 06:07:39 AM,INFO,Director:Jim O'Hanlon
+11/16/2018 06:07:39 AM,INFO,Lead Actor/Actress:Romola Garai
+11/16/2018 06:07:39 AM,INFO,Release Date:2009-10-11
+11/16/2018 06:07:39 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:39] "POST / HTTP/1.1" 500 -
+11/16/2018 06:07:39 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 06:07:39 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 06:07:39 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:39] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 06:07:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 06:07:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 06:07:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:07:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 06:08:30 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 06:08:31 AM,INFO, * Restarting with stat
+11/16/2018 06:08:34 AM,INFO,Program Starting
+11/16/2018 06:08:34 AM,WARNING, * Debugger is active!
+11/16/2018 06:08:34 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 06:08:36 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 06:08:37 AM,INFO, * Restarting with stat
+11/16/2018 06:08:39 AM,INFO,Program Starting
+11/16/2018 06:08:40 AM,INFO,Director:Jim O'Hanlon
+11/16/2018 06:08:40 AM,INFO,Lead Actor/Actress:Romola Garai
+11/16/2018 06:08:40 AM,INFO,Release Date:2009-10-11
+11/16/2018 06:08:40 AM,INFO,Budget:0
+11/16/2018 06:08:40 AM,INFO,Revenue:0
+11/16/2018 06:08:40 AM,INFO,Run time:240.0000000000
+11/16/2018 06:08:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:08:40] "POST / HTTP/1.1" 200 -
+11/16/2018 06:08:50 AM,INFO,Director:Jon Favreau
+11/16/2018 06:08:50 AM,INFO,Lead Actor/Actress:Robert Downey Jr.
+11/16/2018 06:08:50 AM,INFO,Release Date:2008-04-30
+11/16/2018 06:08:50 AM,INFO,Budget:140000000
+11/16/2018 06:08:50 AM,INFO,Revenue:585174222
+11/16/2018 06:08:50 AM,INFO,Run time:126.0000000000
+11/16/2018 06:08:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:08:50] "POST / HTTP/1.1" 200 -
+11/16/2018 06:09:02 AM,ERROR,getMovieTitle Movie Not in Database Lion King
+11/16/2018 06:09:02 AM,ERROR,movie data not in the database
+11/16/2018 06:09:02 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:09:02] "POST / HTTP/1.1" 200 -
+11/16/2018 06:09:06 AM,INFO,Director:Tim Miller
+11/16/2018 06:09:06 AM,INFO,Lead Actor/Actress:Ryan Reynolds
+11/16/2018 06:09:06 AM,INFO,Release Date:2016-02-09
+11/16/2018 06:09:06 AM,INFO,Budget:58000000
+11/16/2018 06:09:06 AM,INFO,Revenue:783112979
+11/16/2018 06:09:06 AM,INFO,Run time:108.0000000000
+11/16/2018 06:09:06 AM,INFO,127.0.0.1 - - [16/Nov/2018 06:09:06] "POST / HTTP/1.1" 200 -

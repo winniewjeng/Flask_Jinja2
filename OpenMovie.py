@@ -40,7 +40,7 @@ class OpenMovie:
         """
         Destructor
         """
-        print("Destructor Called")
+        # print("Destructor Called")
         return
 
     def getPoster(self):
