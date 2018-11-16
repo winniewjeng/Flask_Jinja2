@@ -1,0 +1,742 @@
+11/16/2018 03:35:48 AM,INFO,Program Starting
+11/16/2018 03:36:44 AM,INFO,Program Starting
+11/16/2018 03:37:13 AM,INFO,Program Starting
+11/16/2018 03:42:17 AM,INFO,Program Starting
+11/16/2018 03:42:58 AM,INFO,Program Starting
+11/16/2018 03:45:51 AM,INFO,Program Starting
+11/16/2018 03:45:51 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 03:45:51 AM,INFO, * Restarting with stat
+11/16/2018 03:45:52 AM,INFO,Program Starting
+11/16/2018 03:45:52 AM,WARNING, * Debugger is active!
+11/16/2018 03:45:53 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 03:50:42 AM,INFO,Program Starting
+11/16/2018 03:50:42 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 03:50:42 AM,INFO, * Restarting with stat
+11/16/2018 03:50:46 AM,INFO,Program Starting
+11/16/2018 03:50:46 AM,WARNING, * Debugger is active!
+11/16/2018 03:50:46 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:01:17 AM,INFO,Program Starting
+11/16/2018 04:01:17 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:01:17 AM,INFO, * Restarting with stat
+11/16/2018 04:01:18 AM,INFO,Program Starting
+11/16/2018 04:01:18 AM,WARNING, * Debugger is active!
+11/16/2018 04:01:19 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:05:07 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:05:08 AM,INFO, * Restarting with stat
+11/16/2018 04:05:12 AM,INFO,Program Starting
+11/16/2018 04:05:12 AM,WARNING, * Debugger is active!
+11/16/2018 04:05:12 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:05:23 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:05:23 AM,INFO, * Restarting with stat
+11/16/2018 04:05:30 AM,INFO,Program Starting
+11/16/2018 04:05:30 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:05:30 AM,INFO, * Restarting with stat
+11/16/2018 04:05:32 AM,INFO,Program Starting
+11/16/2018 04:05:32 AM,WARNING, * Debugger is active!
+11/16/2018 04:05:32 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:05:48 AM,INFO,Program Terminated
+11/16/2018 04:06:57 AM,INFO,Program Starting
+11/16/2018 04:06:57 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:06:57 AM,INFO, * Restarting with stat
+11/16/2018 04:06:58 AM,INFO,Program Starting
+11/16/2018 04:06:58 AM,WARNING, * Debugger is active!
+11/16/2018 04:06:58 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:07:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:07:01] "GET / HTTP/1.1" 200 -
+11/16/2018 04:07:08 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:07:08] "POST / HTTP/1.1" 200 -
+11/16/2018 04:07:09 AM,ERROR,Movie Not in Database 
+11/16/2018 04:07:09 AM,ERROR,getCast: Failed to retrieve movie or credits
+11/16/2018 04:07:09 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 109, in getCast
+    cast = json.loads(movieCreditsQuery[0].cast)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:07:09 AM,ERROR,getCrew: Failed to retrieve credits
+11/16/2018 04:07:09 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 137, in getCrew
+    crew = json.loads(movieCreditsQuery[0].crew)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:07:09 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:07:09] "POST / HTTP/1.1" 200 -
+11/16/2018 04:08:13 AM,INFO,Program Terminated
+11/16/2018 04:08:13 AM,INFO,Program Terminated
+11/16/2018 04:08:41 AM,INFO,Program Starting
+11/16/2018 04:08:41 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:08:41 AM,INFO, * Restarting with stat
+11/16/2018 04:08:43 AM,INFO,Program Starting
+11/16/2018 04:08:43 AM,WARNING, * Debugger is active!
+11/16/2018 04:08:43 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:08:46 AM,ERROR,Movie Not in Database 
+11/16/2018 04:08:46 AM,ERROR,getCast: Failed to retrieve movie or credits
+11/16/2018 04:08:46 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 109, in getCast
+    cast = json.loads(movieCreditsQuery[0].cast)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:08:46 AM,ERROR,getCrew: Failed to retrieve credits
+11/16/2018 04:08:46 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 137, in getCrew
+    crew = json.loads(movieCreditsQuery[0].crew)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:08:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:08:46] "POST / HTTP/1.1" 200 -
+11/16/2018 04:08:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:08:50] "POST / HTTP/1.1" 200 -
+11/16/2018 04:09:07 AM,ERROR,Movie Not in Database poop
+11/16/2018 04:09:07 AM,ERROR,getCast: Failed to retrieve movie or credits
+11/16/2018 04:09:07 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 109, in getCast
+    cast = json.loads(movieCreditsQuery[0].cast)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:09:07 AM,ERROR,getCrew: Failed to retrieve credits
+11/16/2018 04:09:07 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 137, in getCrew
+    crew = json.loads(movieCreditsQuery[0].crew)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:09:07 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:09:07] "POST / HTTP/1.1" 200 -
+11/16/2018 04:09:39 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:09:39] "POST / HTTP/1.1" 200 -
+11/16/2018 04:10:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:10:00] "POST / HTTP/1.1" 200 -
+11/16/2018 04:10:22 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:10:22] "POST / HTTP/1.1" 200 -
+11/16/2018 04:10:37 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:10:37] "POST / HTTP/1.1" 200 -
+11/16/2018 04:11:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:11:00] "POST / HTTP/1.1" 200 -
+11/16/2018 04:11:20 AM,ERROR,Movie Not in Database poop
+11/16/2018 04:11:20 AM,ERROR,getCast: Failed to retrieve movie or credits
+11/16/2018 04:11:20 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 109, in getCast
+    cast = json.loads(movieCreditsQuery[0].cast)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:11:20 AM,ERROR,getCrew: Failed to retrieve credits
+11/16/2018 04:11:20 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 137, in getCrew
+    crew = json.loads(movieCreditsQuery[0].crew)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:11:20 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:11:20] "POST / HTTP/1.1" 200 -
+11/16/2018 04:11:23 AM,INFO,Program Terminated
+11/16/2018 04:11:24 AM,INFO,Program Terminated
+11/16/2018 04:20:49 AM,INFO,Program Starting
+11/16/2018 04:20:49 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:20:49 AM,INFO, * Restarting with stat
+11/16/2018 04:20:51 AM,INFO,Program Starting
+11/16/2018 04:20:51 AM,WARNING, * Debugger is active!
+11/16/2018 04:20:51 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:20:53 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:20:53] "GET / HTTP/1.1" 200 -
+11/16/2018 04:20:56 AM,ERROR,Movie Not in Database er
+11/16/2018 04:20:56 AM,ERROR,getCast: Failed to retrieve movie or credits
+11/16/2018 04:20:56 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 109, in getCast
+    cast = json.loads(movieCreditsQuery[0].cast)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:20:56 AM,ERROR,getCrew: Failed to retrieve credits
+11/16/2018 04:20:56 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 137, in getCrew
+    crew = json.loads(movieCreditsQuery[0].crew)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:20:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:20:56] "POST / HTTP/1.1" 200 -
+11/16/2018 04:21:09 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:21:09 AM,INFO, * Restarting with stat
+11/16/2018 04:21:12 AM,INFO,Program Starting
+11/16/2018 04:21:12 AM,WARNING, * Debugger is active!
+11/16/2018 04:21:12 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:21:12 AM,ERROR,Movie Not in Database er
+11/16/2018 04:21:12 AM,ERROR,getCast: Failed to retrieve movie or credits
+11/16/2018 04:21:12 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 109, in getCast
+    cast = json.loads(movieCreditsQuery[0].cast)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:21:12 AM,ERROR,getCrew: Failed to retrieve credits
+11/16/2018 04:21:12 AM,ERROR,Traceback (most recent call last):
+  File "/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py", line 137, in getCrew
+    crew = json.loads(movieCreditsQuery[0].crew)
+  File "/Users/winniferjeng/anaconda3/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 2622, in __getitem__
+    return list(self[item:item + 1])[0]
+IndexError: list index out of range
+
+11/16/2018 04:21:12 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:21:12] "POST / HTTP/1.1" 200 -
+11/16/2018 04:21:40 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:21:40 AM,INFO, * Restarting with stat
+11/16/2018 04:21:43 AM,INFO,Program Starting
+11/16/2018 04:21:43 AM,WARNING, * Debugger is active!
+11/16/2018 04:21:43 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:21:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:21:47] "POST / HTTP/1.1" 200 -
+11/16/2018 04:21:58 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:21:58] "POST / HTTP/1.1" 200 -
+11/16/2018 04:22:08 AM,INFO,Program Terminated
+11/16/2018 04:22:08 AM,INFO,Program Terminated
+11/16/2018 04:22:17 AM,INFO,Program Starting
+11/16/2018 04:22:17 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:22:17 AM,INFO, * Restarting with stat
+11/16/2018 04:22:19 AM,INFO,Program Starting
+11/16/2018 04:22:19 AM,WARNING, * Debugger is active!
+11/16/2018 04:22:19 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:22:20 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:22:20] "POST / HTTP/1.1" 200 -
+11/16/2018 04:22:22 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:22:22] "POST / HTTP/1.1" 200 -
+11/16/2018 04:22:30 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:22:30] "POST / HTTP/1.1" 200 -
+11/16/2018 04:23:34 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:23:34 AM,INFO, * Restarting with stat
+11/16/2018 04:23:37 AM,INFO,Program Starting
+11/16/2018 04:23:37 AM,WARNING, * Debugger is active!
+11/16/2018 04:23:37 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:23:38 AM,INFO,Program Terminated
+11/16/2018 04:23:38 AM,INFO,Program Terminated
+11/16/2018 04:23:45 AM,INFO,Program Starting
+11/16/2018 04:23:45 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:23:45 AM,INFO, * Restarting with stat
+11/16/2018 04:23:46 AM,INFO,Program Starting
+11/16/2018 04:23:46 AM,WARNING, * Debugger is active!
+11/16/2018 04:23:46 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:23:48 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:23:48] "POST / HTTP/1.1" 200 -
+11/16/2018 04:23:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:23:50] "POST / HTTP/1.1" 200 -
+11/16/2018 04:24:12 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:24:12 AM,INFO, * Restarting with stat
+11/16/2018 04:24:14 AM,INFO,Program Terminated
+11/16/2018 04:24:41 AM,INFO,Program Starting
+11/16/2018 04:24:41 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:24:41 AM,INFO, * Restarting with stat
+11/16/2018 04:24:42 AM,INFO,Program Starting
+11/16/2018 04:24:42 AM,WARNING, * Debugger is active!
+11/16/2018 04:24:42 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:24:44 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:24:44] "POST / HTTP/1.1" 200 -
+11/16/2018 04:24:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:24:45] "POST / HTTP/1.1" 200 -
+11/16/2018 04:24:53 AM,INFO,Program Terminated
+11/16/2018 04:24:53 AM,INFO,Program Terminated
+11/16/2018 04:26:12 AM,INFO,Program Starting
+11/16/2018 04:26:12 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:26:12 AM,INFO, * Restarting with stat
+11/16/2018 04:26:14 AM,INFO,Program Starting
+11/16/2018 04:26:14 AM,WARNING, * Debugger is active!
+11/16/2018 04:26:14 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:26:16 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:16] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:18 AM,ERROR,Movie Not in Database 
+11/16/2018 04:26:18 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:18] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:34 AM,ERROR,Movie Not in Database 
+11/16/2018 04:26:34 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:34] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:38 AM,ERROR,Movie Not in Database 
+11/16/2018 04:26:38 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:38] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:38 AM,ERROR,Movie Not in Database 
+11/16/2018 04:26:38 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:38] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:43 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:43] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:46 AM,ERROR,Movie Not in Database 
+11/16/2018 04:26:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:46] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:49 AM,ERROR,Movie Not in Database 
+11/16/2018 04:26:49 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:49] "POST / HTTP/1.1" 200 -
+11/16/2018 04:26:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:26:52] "POST / HTTP/1.1" 200 -
+11/16/2018 04:28:20 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:28:21 AM,INFO, * Restarting with stat
+11/16/2018 04:28:23 AM,INFO,Program Starting
+11/16/2018 04:28:23 AM,WARNING, * Debugger is active!
+11/16/2018 04:28:23 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:28:38 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:28:39 AM,INFO, * Restarting with stat
+11/16/2018 04:28:42 AM,INFO,Program Starting
+11/16/2018 04:28:42 AM,WARNING, * Debugger is active!
+11/16/2018 04:28:42 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:28:46 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 04:28:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:46] "POST / HTTP/1.1" 500 -
+11/16/2018 04:28:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:46] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:28:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:46] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:28:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:46] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:28:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:46] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:28:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:28:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:28:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:28:56] "POST / HTTP/1.1" 200 -
+11/16/2018 04:29:00 AM,ERROR,getMovieTitle Movie Not in Database re
+11/16/2018 04:29:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:29:00] "POST / HTTP/1.1" 500 -
+11/16/2018 04:29:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:29:00] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:29:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:29:00] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:29:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:29:00] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:29:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:29:01] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:29:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:29:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:29:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:29:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:29:51 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:29:51 AM,INFO, * Restarting with stat
+11/16/2018 04:29:53 AM,INFO,Program Starting
+11/16/2018 04:29:53 AM,WARNING, * Debugger is active!
+11/16/2018 04:29:53 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:30:20 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:30:20 AM,INFO, * Restarting with stat
+11/16/2018 04:30:23 AM,INFO,Program Starting
+11/16/2018 04:30:23 AM,WARNING, * Debugger is active!
+11/16/2018 04:30:23 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:30:26 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:30:26 AM,INFO, * Restarting with stat
+11/16/2018 04:30:29 AM,INFO,Program Starting
+11/16/2018 04:30:29 AM,WARNING, * Debugger is active!
+11/16/2018 04:30:29 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:30:53 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:30:53 AM,INFO, * Restarting with stat
+11/16/2018 04:30:55 AM,INFO,Program Starting
+11/16/2018 04:30:56 AM,WARNING, * Debugger is active!
+11/16/2018 04:30:56 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:30:56 AM,ERROR,getMovieTitle Movie Not in Database re
+11/16/2018 04:30:56 AM,ERROR,movie data not in the database
+11/16/2018 04:30:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:56] "POST / HTTP/1.1" 500 -
+11/16/2018 04:30:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:30:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:30:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:56] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:30:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:56] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:30:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:30:56 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:30:58 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:30:58] "GET / HTTP/1.1" 200 -
+11/16/2018 04:31:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:01] "POST / HTTP/1.1" 200 -
+11/16/2018 04:31:17 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:31:17 AM,ERROR,movie data not in the database
+11/16/2018 04:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:17] "POST / HTTP/1.1" 500 -
+11/16/2018 04:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:17] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:17] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:31:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:32:01 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:32:01 AM,ERROR,movie data not in the database
+11/16/2018 04:32:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:01] "POST / HTTP/1.1" 500 -
+11/16/2018 04:32:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:01] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:32:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:01] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:32:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:01] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:32:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:01] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:32:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:32:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:01] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:32:45 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:32:45 AM,ERROR,movie data not in the database
+11/16/2018 04:32:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:45] "POST / HTTP/1.1" 500 -
+11/16/2018 04:32:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:45] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:32:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:45] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:32:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:45] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:32:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:45] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:32:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:32:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:32:50 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:32:50 AM,ERROR,movie data not in the database
+11/16/2018 04:32:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:50] "POST / HTTP/1.1" 500 -
+11/16/2018 04:32:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:32:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:32:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:50] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:32:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:50] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:32:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:32:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:32:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:33:47 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:33:49 AM,INFO, * Restarting with stat
+11/16/2018 04:33:51 AM,INFO,Program Starting
+11/16/2018 04:33:51 AM,WARNING, * Debugger is active!
+11/16/2018 04:33:51 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:33:51 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:33:51 AM,ERROR,movie data not in the database
+11/16/2018 04:33:51 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:33:51] "POST / HTTP/1.1" 200 -
+11/16/2018 04:34:04 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:34:04 AM,ERROR,movie data not in the database
+11/16/2018 04:34:04 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:34:04] "POST / HTTP/1.1" 200 -
+11/16/2018 04:34:05 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:34:05 AM,ERROR,movie data not in the database
+11/16/2018 04:34:05 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:34:05] "POST / HTTP/1.1" 200 -
+11/16/2018 04:34:13 AM,ERROR,getMovieTitle Movie Not in Database poop
+11/16/2018 04:34:13 AM,ERROR,movie data not in the database
+11/16/2018 04:34:13 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:34:13] "POST / HTTP/1.1" 200 -
+11/16/2018 04:34:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:34:17] "POST / HTTP/1.1" 200 -
+11/16/2018 04:35:00 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:35:00] "POST / HTTP/1.1" 200 -
+11/16/2018 04:35:01 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 04:35:01 AM,ERROR,movie data not in the database
+11/16/2018 04:35:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:35:01] "POST / HTTP/1.1" 200 -
+11/16/2018 04:35:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:35:03] "POST / HTTP/1.1" 200 -
+11/16/2018 04:35:05 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:35:05] "POST / HTTP/1.1" 200 -
+11/16/2018 04:35:12 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:35:12] "POST / HTTP/1.1" 200 -
+11/16/2018 04:35:18 AM,ERROR,getMovieTitle Movie Not in Database Bye
+11/16/2018 04:35:18 AM,ERROR,movie data not in the database
+11/16/2018 04:35:18 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:35:18] "POST / HTTP/1.1" 200 -
+11/16/2018 04:37:25 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:37:26 AM,INFO, * Restarting with stat
+11/16/2018 04:37:29 AM,INFO,Program Starting
+11/16/2018 04:37:29 AM,WARNING, * Debugger is active!
+11/16/2018 04:37:29 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:37:31 AM,ERROR,getMovieTitle Movie Not in Database Het
+11/16/2018 04:37:31 AM,ERROR,movie data not in the database
+11/16/2018 04:37:31 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:37:31] "POST / HTTP/1.1" 200 -
+11/16/2018 04:37:36 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:37:36] "POST / HTTP/1.1" 200 -
+11/16/2018 04:39:28 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:39:29 AM,INFO, * Restarting with stat
+11/16/2018 04:39:31 AM,INFO,Program Starting
+11/16/2018 04:39:31 AM,WARNING, * Debugger is active!
+11/16/2018 04:39:31 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:39:57 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:39:57 AM,INFO, * Restarting with stat
+11/16/2018 04:40:00 AM,INFO,Program Starting
+11/16/2018 04:40:00 AM,WARNING, * Debugger is active!
+11/16/2018 04:40:00 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:40:12 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:40:12] "POST / HTTP/1.1" 200 -
+11/16/2018 04:43:21 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:43:21 AM,INFO, * Restarting with stat
+11/16/2018 04:43:24 AM,INFO,Program Starting
+11/16/2018 04:43:24 AM,WARNING, * Debugger is active!
+11/16/2018 04:43:24 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:43:28 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:43:28] "POST / HTTP/1.1" 200 -
+11/16/2018 04:44:23 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:44:23 AM,INFO, * Restarting with stat
+11/16/2018 04:44:26 AM,INFO,Program Starting
+11/16/2018 04:44:26 AM,WARNING, * Debugger is active!
+11/16/2018 04:44:26 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:44:27 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:44:27] "POST / HTTP/1.1" 200 -
+11/16/2018 04:44:37 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:44:37] "POST / HTTP/1.1" 200 -
+11/16/2018 04:44:56 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:44:56 AM,INFO, * Restarting with stat
+11/16/2018 04:44:59 AM,INFO,Program Starting
+11/16/2018 04:44:59 AM,WARNING, * Debugger is active!
+11/16/2018 04:44:59 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:44:59 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:44:59] "POST / HTTP/1.1" 200 -
+11/16/2018 04:46:31 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:46:31 AM,INFO, * Restarting with stat
+11/16/2018 04:46:34 AM,INFO,Program Starting
+11/16/2018 04:46:34 AM,WARNING, * Debugger is active!
+11/16/2018 04:46:34 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:46:34 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:46:34] "POST / HTTP/1.1" 200 -
+11/16/2018 04:47:16 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:47:17 AM,INFO, * Restarting with stat
+11/16/2018 04:47:19 AM,INFO,Program Starting
+11/16/2018 04:47:19 AM,WARNING, * Debugger is active!
+11/16/2018 04:47:19 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:47:21 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:47:21] "POST / HTTP/1.1" 200 -
+11/16/2018 04:48:07 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:48:07 AM,INFO, * Restarting with stat
+11/16/2018 04:48:10 AM,INFO,Program Starting
+11/16/2018 04:48:10 AM,WARNING, * Debugger is active!
+11/16/2018 04:48:10 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:48:12 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:48:12] "POST / HTTP/1.1" 200 -
+11/16/2018 04:49:15 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/OpenMovie.py', reloading
+11/16/2018 04:49:15 AM,INFO, * Restarting with stat
+11/16/2018 04:49:18 AM,INFO,Program Starting
+11/16/2018 04:49:18 AM,WARNING, * Debugger is active!
+11/16/2018 04:49:18 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:50:32 AM,INFO,Program Terminated
+11/16/2018 04:54:03 AM,INFO,Program Starting
+11/16/2018 04:54:03 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 04:54:03 AM,INFO, * Restarting with stat
+11/16/2018 04:54:06 AM,INFO,Program Starting
+11/16/2018 04:54:06 AM,WARNING, * Debugger is active!
+11/16/2018 04:54:06 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:54:06 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:54:06] "POST / HTTP/1.1" 200 -
+11/16/2018 04:54:08 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:54:08] "POST / HTTP/1.1" 200 -
+11/16/2018 04:54:20 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:54:20] "POST / HTTP/1.1" 200 -
+11/16/2018 04:58:31 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:58:32 AM,INFO, * Restarting with stat
+11/16/2018 04:58:35 AM,INFO,Program Starting
+11/16/2018 04:58:35 AM,WARNING, * Debugger is active!
+11/16/2018 04:58:35 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:58:42 AM,ERROR,getMovieTitle Movie Not in Database o
+11/16/2018 04:58:42 AM,ERROR,movie data not in the database
+11/16/2018 04:58:42 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:58:42] "POST / HTTP/1.1" 200 -
+11/16/2018 04:58:49 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:58:49] "POST / HTTP/1.1" 200 -
+11/16/2018 04:59:00 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:59:00 AM,INFO, * Restarting with stat
+11/16/2018 04:59:03 AM,INFO,Program Starting
+11/16/2018 04:59:03 AM,WARNING, * Debugger is active!
+11/16/2018 04:59:03 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 04:59:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:59:03] "POST / HTTP/1.1" 500 -
+11/16/2018 04:59:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:59:03] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 04:59:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:59:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 04:59:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:59:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 04:59:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:59:03] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 04:59:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:59:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:59:03 AM,INFO,127.0.0.1 - - [16/Nov/2018 04:59:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 04:59:51 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 04:59:52 AM,INFO, * Restarting with stat
+11/16/2018 04:59:54 AM,INFO,Program Starting
+11/16/2018 04:59:54 AM,WARNING, * Debugger is active!
+11/16/2018 04:59:54 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:01:47 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:01:48 AM,INFO, * Restarting with stat
+11/16/2018 05:01:51 AM,INFO,Program Starting
+11/16/2018 05:01:51 AM,WARNING, * Debugger is active!
+11/16/2018 05:01:51 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:02:14 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:02:14 AM,INFO, * Restarting with stat
+11/16/2018 05:03:42 AM,INFO,Program Starting
+11/16/2018 05:03:42 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:03:42 AM,INFO, * Restarting with stat
+11/16/2018 05:03:43 AM,INFO,Program Starting
+11/16/2018 05:03:43 AM,WARNING, * Debugger is active!
+11/16/2018 05:03:43 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:03:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:47] "POST / HTTP/1.1" 500 -
+11/16/2018 05:03:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:03:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:47] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:03:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:47] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:03:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:47] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:03:48 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:03:48 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:03:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:52] "POST / HTTP/1.1" 500 -
+11/16/2018 05:03:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:03:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:52] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:03:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:03:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:52] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:03:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:03:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:03:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:04:08 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:04:08 AM,INFO, * Restarting with stat
+11/16/2018 05:04:11 AM,INFO,Program Starting
+11/16/2018 05:04:11 AM,WARNING, * Debugger is active!
+11/16/2018 05:04:11 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:04:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:14] "POST / HTTP/1.1" 500 -
+11/16/2018 05:04:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:04:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:14] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:04:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:14] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:04:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:14] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:04:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:04:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:14] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:04:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:17] "POST / HTTP/1.1" 500 -
+11/16/2018 05:04:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:04:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:17] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:04:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:04:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:17] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:04:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:04:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:04:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:19] "POST / HTTP/1.1" 500 -
+11/16/2018 05:04:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:19] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:04:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:19] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:04:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:19] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:04:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:19] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:04:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:19] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:04:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:19] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:04:47 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:04:47 AM,INFO, * Restarting with stat
+11/16/2018 05:04:49 AM,INFO,Program Starting
+11/16/2018 05:04:49 AM,WARNING, * Debugger is active!
+11/16/2018 05:04:49 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:04:52 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:52] "POST / HTTP/1.1" 200 -
+11/16/2018 05:04:55 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:04:55] "POST / HTTP/1.1" 200 -
+11/16/2018 05:05:07 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:05:08 AM,INFO, * Restarting with stat
+11/16/2018 05:05:10 AM,INFO,Program Starting
+11/16/2018 05:05:10 AM,WARNING, * Debugger is active!
+11/16/2018 05:05:10 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:05:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:11] "POST / HTTP/1.1" 500 -
+11/16/2018 05:05:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:05:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:11] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:05:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:05:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:11] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:05:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:05:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:05:42 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:05:42 AM,INFO, * Restarting with stat
+11/16/2018 05:05:45 AM,INFO,Program Starting
+11/16/2018 05:05:45 AM,WARNING, * Debugger is active!
+11/16/2018 05:05:45 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:05:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:47] "POST / HTTP/1.1" 200 -
+11/16/2018 05:05:50 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:05:50] "POST / HTTP/1.1" 200 -
+11/16/2018 05:06:55 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:06:56 AM,INFO, * Restarting with stat
+11/16/2018 05:06:58 AM,INFO,Program Starting
+11/16/2018 05:06:59 AM,WARNING, * Debugger is active!
+11/16/2018 05:06:59 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:07:18 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:07:18 AM,INFO, * Restarting with stat
+11/16/2018 05:07:20 AM,INFO,Program Starting
+11/16/2018 05:07:20 AM,WARNING, * Debugger is active!
+11/16/2018 05:07:20 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:07:22 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:07:22] "POST / HTTP/1.1" 200 -
+11/16/2018 05:07:24 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:07:24] "POST / HTTP/1.1" 200 -
+11/16/2018 05:07:36 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:07:37 AM,INFO, * Restarting with stat
+11/16/2018 05:07:40 AM,INFO,Program Starting
+11/16/2018 05:07:40 AM,WARNING, * Debugger is active!
+11/16/2018 05:07:40 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:07:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:07:40] "POST / HTTP/1.1" 200 -
+11/16/2018 05:07:47 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:07:47] "POST / HTTP/1.1" 200 -
+11/16/2018 05:08:30 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:08:31 AM,INFO, * Restarting with stat
+11/16/2018 05:08:34 AM,INFO,Program Starting
+11/16/2018 05:08:34 AM,WARNING, * Debugger is active!
+11/16/2018 05:08:34 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:09:16 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:09:17 AM,INFO, * Restarting with stat
+11/16/2018 05:09:20 AM,INFO,Program Starting
+11/16/2018 05:09:20 AM,WARNING, * Debugger is active!
+11/16/2018 05:09:20 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:09:38 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:09:38 AM,INFO, * Restarting with stat
+11/16/2018 05:09:41 AM,INFO,Program Starting
+11/16/2018 05:09:41 AM,WARNING, * Debugger is active!
+11/16/2018 05:09:41 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:10:08 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:10:09 AM,INFO, * Restarting with stat
+11/16/2018 05:10:11 AM,INFO,Program Starting
+11/16/2018 05:10:11 AM,WARNING, * Debugger is active!
+11/16/2018 05:10:11 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:10:33 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:10:34 AM,INFO, * Restarting with stat
+11/16/2018 05:10:37 AM,INFO,Program Starting
+11/16/2018 05:10:37 AM,WARNING, * Debugger is active!
+11/16/2018 05:10:37 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:11:07 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:11:08 AM,INFO, * Restarting with stat
+11/16/2018 05:11:10 AM,INFO,Program Starting
+11/16/2018 05:11:10 AM,WARNING, * Debugger is active!
+11/16/2018 05:11:10 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:11:33 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:11:34 AM,INFO, * Restarting with stat
+11/16/2018 05:11:36 AM,INFO,Program Starting
+11/16/2018 05:11:36 AM,WARNING, * Debugger is active!
+11/16/2018 05:11:36 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:11:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:11:40] "POST / HTTP/1.1" 500 -
+11/16/2018 05:11:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:11:40] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:11:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:11:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:11:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:11:40] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:11:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:11:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:11:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:11:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:11:40 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:11:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:11:59 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:11:59 AM,INFO, * Restarting with stat
+11/16/2018 05:12:02 AM,INFO,Program Starting
+11/16/2018 05:12:02 AM,WARNING, * Debugger is active!
+11/16/2018 05:12:02 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:12:02 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:12:02] "POST / HTTP/1.1" 200 -
+11/16/2018 05:13:24 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:13:24] "POST / HTTP/1.1" 200 -
+11/16/2018 05:13:24 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:13:24 AM,INFO, * Restarting with stat
+11/16/2018 05:13:27 AM,INFO,Program Starting
+11/16/2018 05:13:27 AM,WARNING, * Debugger is active!
+11/16/2018 05:13:27 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:14:01 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:14:01] "POST / HTTP/1.1" 200 -
+11/16/2018 05:15:17 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:15:17 AM,INFO, * Restarting with stat
+11/16/2018 05:15:20 AM,INFO,Program Starting
+11/16/2018 05:15:20 AM,WARNING, * Debugger is active!
+11/16/2018 05:15:20 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:15:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:15:25] "POST / HTTP/1.1" 500 -
+11/16/2018 05:15:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:15:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+11/16/2018 05:15:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:15:25] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+11/16/2018 05:15:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:15:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+11/16/2018 05:15:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:15:25] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+11/16/2018 05:15:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:15:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:15:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:15:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+11/16/2018 05:16:00 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:16:01 AM,INFO, * Restarting with stat
+11/16/2018 05:16:04 AM,INFO,Program Starting
+11/16/2018 05:16:04 AM,WARNING, * Debugger is active!
+11/16/2018 05:16:04 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:16:05 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:16:05] "POST / HTTP/1.1" 200 -
+11/16/2018 05:16:07 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:16:07] "POST / HTTP/1.1" 200 -
+11/16/2018 05:16:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:16:17] "POST / HTTP/1.1" 200 -
+11/16/2018 05:16:24 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:16:24] "POST / HTTP/1.1" 200 -
+11/16/2018 05:16:38 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:16:38] "POST / HTTP/1.1" 200 -
+11/16/2018 05:18:09 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:18:10 AM,INFO, * Restarting with stat
+11/16/2018 05:18:13 AM,INFO,Program Starting
+11/16/2018 05:18:13 AM,WARNING, * Debugger is active!
+11/16/2018 05:18:13 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:21:11 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:21:11] "POST / HTTP/1.1" 200 -
+11/16/2018 05:21:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:21:14] "POST / HTTP/1.1" 200 -
+11/16/2018 05:21:15 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 05:21:15 AM,ERROR,movie data not in the database
+11/16/2018 05:21:15 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:21:15] "POST / HTTP/1.1" 200 -
+11/16/2018 05:21:18 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:21:18] "POST / HTTP/1.1" 200 -
+11/16/2018 05:23:19 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:23:19 AM,INFO, * Restarting with stat
+11/16/2018 05:24:01 AM,INFO,Program Starting
+11/16/2018 05:24:01 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:24:01 AM,INFO, * Restarting with stat
+11/16/2018 05:24:03 AM,INFO,Program Starting
+11/16/2018 05:24:03 AM,WARNING, * Debugger is active!
+11/16/2018 05:24:03 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:24:07 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:24:07] "POST / HTTP/1.1" 200 -
+11/16/2018 05:25:29 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:25:29] "POST / HTTP/1.1" 200 -
+11/16/2018 05:25:31 AM,ERROR,getMovieTitle Movie Not in Database E
+11/16/2018 05:25:31 AM,ERROR,movie data not in the database
+11/16/2018 05:25:31 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:25:31] "POST / HTTP/1.1" 200 -
+11/16/2018 05:25:33 AM,ERROR,getMovieTitle Movie Not in Database Em
+11/16/2018 05:25:33 AM,ERROR,movie data not in the database
+11/16/2018 05:25:33 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:25:33] "POST / HTTP/1.1" 200 -
+11/16/2018 05:25:37 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:25:37] "POST / HTTP/1.1" 200 -
+11/16/2018 05:26:43 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:26:43] "POST / HTTP/1.1" 200 -
+11/16/2018 05:26:44 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 05:26:44 AM,ERROR,movie data not in the database
+11/16/2018 05:26:44 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:26:44] "POST / HTTP/1.1" 200 -
+11/16/2018 05:26:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:26:46] "POST / HTTP/1.1" 200 -
+11/16/2018 05:27:12 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:27:12] "POST / HTTP/1.1" 200 -
+11/16/2018 05:27:32 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:27:32] "POST / HTTP/1.1" 200 -
+11/16/2018 05:27:35 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:27:35] "POST / HTTP/1.1" 200 -
+11/16/2018 05:28:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:28:14] "POST / HTTP/1.1" 200 -
+11/16/2018 05:28:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:28:17] "POST / HTTP/1.1" 200 -
+11/16/2018 05:30:13 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:30:13] "POST / HTTP/1.1" 200 -
+11/16/2018 05:30:16 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:30:16] "POST / HTTP/1.1" 200 -
+11/16/2018 05:30:48 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 05:30:48 AM,ERROR,movie data not in the database
+11/16/2018 05:30:48 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:30:48] "POST / HTTP/1.1" 200 -
+11/16/2018 05:30:55 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:30:55] "POST / HTTP/1.1" 200 -
+11/16/2018 05:31:03 AM,INFO,Program Terminated
+11/16/2018 05:31:03 AM,INFO,Program Terminated
+11/16/2018 05:31:12 AM,INFO,Program Starting
+11/16/2018 05:31:12 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:31:12 AM,INFO, * Restarting with stat
+11/16/2018 05:31:14 AM,INFO,Program Starting
+11/16/2018 05:31:14 AM,WARNING, * Debugger is active!
+11/16/2018 05:31:14 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:31:15 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:31:15] "GET / HTTP/1.1" 200 -
+11/16/2018 05:31:17 AM,ERROR,getMovieTitle Movie Not in Database 
+11/16/2018 05:31:17 AM,ERROR,movie data not in the database
+11/16/2018 05:31:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:31:17] "POST / HTTP/1.1" 200 -
+11/16/2018 05:31:20 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:31:20] "POST / HTTP/1.1" 200 -
+11/16/2018 05:32:46 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:32:46] "POST / HTTP/1.1" 200 -
+11/16/2018 05:32:57 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:32:57] "POST / HTTP/1.1" 200 -
+11/16/2018 05:33:18 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:33:19 AM,INFO, * Restarting with stat
+11/16/2018 05:34:36 AM,INFO,Program Starting
+11/16/2018 05:34:36 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:34:36 AM,INFO, * Restarting with stat
+11/16/2018 05:34:38 AM,INFO,Program Starting
+11/16/2018 05:34:38 AM,WARNING, * Debugger is active!
+11/16/2018 05:34:38 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:34:38 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:34:38] "GET / HTTP/1.1" 200 -
+11/16/2018 05:34:42 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:34:42] "POST / HTTP/1.1" 200 -
+11/16/2018 05:34:49 AM,INFO,Program Terminated
+11/16/2018 05:37:09 AM,INFO,Program Starting
+11/16/2018 05:37:09 AM,INFO, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+11/16/2018 05:37:09 AM,INFO, * Restarting with stat
+11/16/2018 05:37:10 AM,INFO,Program Starting
+11/16/2018 05:37:10 AM,WARNING, * Debugger is active!
+11/16/2018 05:37:11 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:37:12 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:37:12] "GET / HTTP/1.1" 200 -
+11/16/2018 05:37:14 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:37:14] "POST / HTTP/1.1" 200 -
+11/16/2018 05:38:17 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:38:17] "POST / HTTP/1.1" 200 -
+11/16/2018 05:38:25 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:38:25] "POST / HTTP/1.1" 200 -
+11/16/2018 05:38:34 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:38:34] "POST / HTTP/1.1" 200 -
+11/16/2018 05:38:58 AM,INFO, * Detected change in '/Users/winniferjeng/Desktop/Python/Week8/lab8.py', reloading
+11/16/2018 05:38:59 AM,INFO, * Restarting with stat
+11/16/2018 05:39:02 AM,INFO,Program Starting
+11/16/2018 05:39:02 AM,WARNING, * Debugger is active!
+11/16/2018 05:39:02 AM,INFO, * Debugger PIN: 154-524-469
+11/16/2018 05:39:02 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:02] "POST / HTTP/1.1" 200 -
+11/16/2018 05:39:07 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:07] "POST / HTTP/1.1" 200 -
+11/16/2018 05:39:13 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:13] "POST / HTTP/1.1" 200 -
+11/16/2018 05:39:19 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:19] "POST / HTTP/1.1" 200 -
+11/16/2018 05:39:26 AM,ERROR,getMovieTitle Movie Not in Database Little Prince
+11/16/2018 05:39:26 AM,ERROR,movie data not in the database
+11/16/2018 05:39:26 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:26] "POST / HTTP/1.1" 200 -
+11/16/2018 05:39:35 AM,ERROR,getMovieTitle Movie Not in Database Little Princess
+11/16/2018 05:39:35 AM,ERROR,movie data not in the database
+11/16/2018 05:39:35 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:35] "POST / HTTP/1.1" 200 -
+11/16/2018 05:39:45 AM,INFO,127.0.0.1 - - [16/Nov/2018 05:39:45] "POST / HTTP/1.1" 200 -
+11/16/2018 05:40:14 AM,INFO,Program Terminated
+11/16/2018 05:40:14 AM,INFO,Program Terminated

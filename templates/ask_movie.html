@@ -1,0 +1,12 @@
+<!-- this page will have a text edit to enter a movie name and a button to start actions -->
+{% extends "base.html" %}
+{% block title %}Ask Movie {{movie_title}}{% endblock%}
+{% block head %}
+    {{super()}}
+{% endblock %}
+{% block content %}
+    <form action = "/" method="POST">
+        <p>Movie  <input type ="MOVIE" name = "MOVIE" /></p>
+        <p><input type = "submit" value = "submit" /></p>
+    </form>
+{% endblock %}

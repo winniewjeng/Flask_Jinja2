@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<!-- This is the base HTML template from which all other html file inherit -->
+<html>
+<head>
+    {% block head%}
+    <title>{% block title %}{% endblock %}Webpage</title>
+    {% endblock %}
+</head>
+
+<body>
+    <div id="container">{% block content %}{% endblock %}</div>
+    <div id="footer">
+        {% block footer %}
+        <!-- The footer shall contain a link back to the home page -->
+        &copy; Copyright 2018 by Winnie Jeng<a href="http://domain.invalid/"></a>
+        {% endblock %}
+
+    </div>
+</body>
+</html>
